@@ -223,4 +223,24 @@ By following the above steps, you have:
 
 You now have a foundational understanding of how Azure NSGs can secure traffic and how to observe and troubleshoot network behavior using Wireshark.
 
+### Next Steps
 
+1. Capture from Linux
+
+    - Install tcpdump on the Ubuntu VM and compare captures from both ends simultaneously.
+
+2. Advanced NSG Configurations
+
+    - Explore user-defined routes, forced tunneling, or integrating with Azure Firewall for more complex scenarios.
+
+3. Protocol-Specific Deep Dives
+
+    - Investigate SSL/TLS handshake details (HTTPS), or do a comparative analysis of Telnet (unencrypted) vs. SSH (encrypted).
+
+4. Automated Packet Analysis
+
+    - Use command-line tools (e.g., tshark, tcpdump) with scripts to automate capturing and analyzing traffic.
+
+5. Real-World Logging and Monitoring
+
+    - Integrate NSG flow logs with Azure Monitor, or use a third-party SIEM solution to collect logs from your Azure environment.
